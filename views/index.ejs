@@ -1,0 +1,190 @@
+<html>
+	<head>
+		
+		<style>
+		
+		*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: square;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+#main{
+  padding: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.p-title{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+#title{
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Tangerine', cursive;
+  padding-bottom: 30px;
+}
+#title::before{
+  content: '';
+  width: 30%;
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+  top: 50px;
+}
+#title::after{
+  content: '';
+  width: 30%;
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+  top: -52px;
+  left: 70%;
+}
+#img-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#img-div img{
+  width:60%;
+  padding: 50px 0 50px 0;
+}
+#img-caption{
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+span{
+  font-weight: bold;
+}
+#tribute-info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.p1{
+  width: 40%;
+  font-size: 1.2rem;
+}
+.line{
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+}
+.list{
+  width: 40%;
+  font-size: 1.2rem;
+}
+span:nth-child(2){
+  color: #848181;
+  font-weight:initial;
+}
+footer{
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  margin-top: 100px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  position: relative;
+  bottom: 40px;
+}
+@media all and (max-width: 1260px){
+  #title::before{
+  border: none;
+  }
+#title::after{
+  border: none;
+  }
+}
+@media all and (max-width: 1024px){
+  .p1, .list{
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 840px){
+  .p-title{
+    font-size: 1rem;
+  }
+  #title{
+    font-size: 3rem;
+  }
+  #img-caption{
+    font-size: 1rem;
+    padding-bottom: 50px;
+  }
+  #tribute-info{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  .p1{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .line{
+    display: none;
+  }
+  .list{
+    width: 100%;
+    white-space: pre-wrap;
+  }
+  footer{
+    margin-top: 0;
+  }
+  #img-div img{
+    width: 80%;
+  }
+}
+@media all and (max-width: 600px){
+  .p-title{
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+  }
+  #img-div img{
+    width: 100%;
+  }
+  #tribute-link{
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}
+		
+		</style>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	</head>
+	<body>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Tangerine&display=swap" rel="stylesheet">
+<main id="main">
+  <p class="p-title">Nutrition in food items API</p>
+    <h1 id="title">food-content-api</h1>
+    <div id="img-div">
+		<p id="img-caption">
+			<a href="https://github.com/PUSHKARMAURYA/food-content-api"> <button type="button" class="btn btn-lg btn-outline-dark"><strong>Explore the Docs </strong></button></a></p>
+    <img src="https://camo.githubusercontent.com/f2806aa3d7f77f20322ad5ccf10c30fda114b3a9/68747470733a2f2f63646e2e706978616261792e636f6d2f70686f746f2f323031392f30332f31392f30392f31392f6469657465746963732d343036353135385f3936305f3732302e6a7067" alt="Elon Musk">
+    
+    </div>
+
+
+  
+  
+</main>
+	</body>
+</html>
