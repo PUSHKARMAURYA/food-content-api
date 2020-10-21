@@ -72,7 +72,7 @@ A simple JSON API for nutrition value in food item.
       
 
 
-### Request GET/api/item/:item          ([`http://foodcontent.herokuapp.com/api/item/butter`](http://foodcontent.herokuapp.com/api/item/butter)]
+### Request GET/api/item/:item          ([`http://foodcontent.herokuapp.com/api/item/butter`](http://foodcontent.herokuapp.com/api/item/butter))
 
 ### Response
 ```javascript
