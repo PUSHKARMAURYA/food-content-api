@@ -1,6 +1,6 @@
 # food-content-api
 
-
+A simple JSON API for nutrition value in food item.
 
 ![](https://cdn.pixabay.com/photo/2019/03/19/09/19/dietetics-4065158_960_720.jpg)
 
@@ -11,12 +11,11 @@
 
 ## API Routes
 
-| API Endpoint                           | Description                       |
-|----------------------------------------|-----------------------------------|
-| GET /                                  |            |
-| GET /api/v1/foods                      | Get all Foods                     |
-| GET /api/v1/foods/:id                  | Find a single Food of a given :id |
-| POST /api/v1/foods                     | Create a new Food                 |
+| API Endpoint                           | Description                                                                        |
+|----------------------------------------|------------------------------------------------------------------------------------|
+| GET /api/                              | Get all Foods  items nutritional value .                                           |
+| GET /api/desc/:id                      | Food items and their nutritional value of a given id(`description of food item `) |
+| GET /api/item/:id                      | Food items and their  their nutritional value of a given id(`foood item`)         |
 
 
 
