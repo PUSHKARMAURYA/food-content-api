@@ -18,9 +18,30 @@
 | GET /api/v1/foods/:id                  | Find a single Food of a given :id |
 | POST /api/v1/foods                     | Create a new Food                 |
 
-> For convenient testing, use [Postman](https://www.getpostman.com) and import [this Postman collection](https://www.getpostman.com/collections/fec63667ea5bceeec5b0). Postman is a desktop API testing tool.
 
-![](http://i.imgur.com/3UQ0qIW.gif)
+
+## API Usage
+
+### Request GET/api                   `http://foodcontent.herokuapp.com/api/`
+
+### Response
+`x`
+
+### Request GET/api/desc/:description   `http://foodcontent.herokuapp.com/`
+
+### Response
+`http://foodcontent.herokuapp.com/`
+
+
+### Request GET/api/item/:item           `http://foodcontent.herokuapp.com/`
+
+### Response
+`http://foodcontent.herokuapp.com/`
+
+
+
+
+
 
 ## API HTTP Status Codes
 
@@ -37,4 +58,4 @@
 
 Contributors:
 
-- Pushkar Maurya ([https://github.com/PUSHKARMAURYA](https://github.com/PUSHKARMAURYA))
+- Pushkar Maurya ([https://pushkarmaurya.herokuapp.com](https://pushkarmaurya.herokuapp.com))
