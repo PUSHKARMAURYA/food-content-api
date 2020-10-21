@@ -1,4 +1,4 @@
-# food-content-api ([`http://foodcontent.herokuapp.com/`](http://foodcontent.herokuapp.com/))
+# food-content-api 
 
 A simple JSON API for nutrition value in food item.
 
